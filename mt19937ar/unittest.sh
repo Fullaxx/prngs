@@ -2,5 +2,4 @@
 
 set -e
 
-./mt19937ar.dbg | head -n 2 | tail -n 1 | \
-grep -q "1067595299  955945823  477289528 4107218783 4228976476"
+./mt19937ar.dbg | sha256sum | grep -q be6d89fbf6ffdd1b67ce830abda146b53a55a55e8fb2f0038413acee5779f683
