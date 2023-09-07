@@ -60,7 +60,7 @@
 
 #define NN 312
 #define MM 156
-#define MATRIX_A UINT64_C(0xB5026F5AA96619E9)
+#define MATRIX_A_64 UINT64_C(0xB5026F5AA96619E9)
 #define UM UINT64_C(0xFFFFFFFF80000000) /* Most significant 33 bits */
 #define LM UINT64_C(0x7FFFFFFF) /* Least significant 31 bits */
 

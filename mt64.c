@@ -100,7 +100,7 @@ uint64_t genrand64_int64(mt64_t *s)
 {
 	int i;
 	uint64_t x;
-	static uint64_t mag01[2]={UINT64_C(0), MATRIX_A};
+	static uint64_t mag01[2]={UINT64_C(0), MATRIX_A_64};
 
 	if (s->mti >= NN) { /* generate NN words at one time */
 
